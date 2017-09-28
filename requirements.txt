@@ -1,0 +1,7 @@
+requests
+lxml
+bs4
+pymssql
+datetime
+fake-useragent
+gc
