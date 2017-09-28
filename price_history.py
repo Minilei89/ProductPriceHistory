@@ -25,4 +25,3 @@ class Price_History(MSSQL_Database):
         if not price or (str(price[0]) != kwargs['ProductPrice'] and price):
             if kwargs['ProductPrice'] != 'NULL':
                 MSSQL_Database.insert_table(self, table_name, **kwargs)
-                collect()
